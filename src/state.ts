@@ -1,4 +1,4 @@
-type PlaybackState = {
+export type PlaybackState = {
     buffering: boolean;
     deferLoadedEvent: boolean;
     deferPlayingEvent: boolean;
@@ -11,7 +11,7 @@ type PlaybackState = {
     seeking: boolean;
 }
 
-const initialState: PlaybackState = {
+export const initialState: PlaybackState = {
     buffering: false,
     deferLoadedEvent: false,
     deferPlayingEvent: false,

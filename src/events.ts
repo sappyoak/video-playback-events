@@ -47,3 +47,5 @@ export enum NormalizedEvent {
     /** A time update event */
     TIME_UPDATE = "timeupdate"
 }
+
+export type EventCallback = (event: NormalizedEvent) => void
