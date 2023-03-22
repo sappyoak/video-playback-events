@@ -1,0 +1,22 @@
+{
+  "name": "video-playback-events",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "A normalization layer for the HTMLVideoElement",
+  "main": "build/index.js",
+  "typings": "build/types/video-playback-events.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json --emitDeclarationOnly"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sappyoak/video-playback-events.git"
+  },
+  "author": "Forrest Collins",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.15.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  }
+}
